@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 9.2vh;
+    background-color: #85C1E9;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    margin-top: 1vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-top: 1.8vh;
+    margin-left: 1vh;
+    background-image: url('../images/self_profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.account_user_name{
+    margin-top: 2.1vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.self_name{
+    font-weight: 600;
+}
+
+.self_user{
+    font-size: 10px;
+    margin-right: 7vh;
+}
+
+.message_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.2vh;
+    width: 9vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.body{
+    height: 48vh;
+    background-color: white;
+}
+
+.theng_post_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.theng_profile_info{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theng_profile{
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.theng_profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 1vh;
+    background-image: url('../images/theng_profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.theng_user_name{
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.theng_name{
+    font-weight: 600;
+    margin-right: 2vh;
+}
+
+.theng_user{
+    font-size: 10px;
+    color: #979797;
+    margin-right: 5vh;
+}
+
+.theng_history{
+    font-size: 10px;
+    color: #979797;
+}
+
+.theng_tag{
+    font-size: 10px;
+    color: #979797;
+    margin-top: 0.85vh;
+    margin-left: -1.5vh;
+}
+
+.theng_info{
+    width: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 1vh;
+    border: none;
+    background-color: white;
+}
+
+.theng_post_caption{
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.theng_caption{
+    margin-left: 1.5vh;
+}
+
+.theng_mention{
+    color: #979797;
+}
+
+.theng_picture{
+    background-image: url('../images/theng_post.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.theng_like_share_comment{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.theng_comment_box{
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theng_comment_button{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 2px 2px gray inset;
+}
+
+.theng_comment_letter{
+    margin-left: 1vh;
+    color: #979797;
+}
+
+.theng_comment_send_icon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vh;
+}
+
+.comment_send_icon_border{
+    z-index: 2;
+}
+
+.comment_send_icon_solid{
+    z-index: 1;
+    color: #27AE60;
+    margin-top: -1.8vh;
+}
+
+.footer{
+    height: 37.25vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.homepage{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    color: #848884;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.friends, .watch, .menu{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.notifications{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    border: none;
+    background-color: #85C1E9;
+}

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 9.2vh;
+    background-color: #85C1E9;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.back_icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+    margin-left: 2vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.posting{
+    font-size: 35px;
+    margin-bottom: 2vh;
+}
+
+.post_button{
+    font-size: 20px;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+}
+
+.body{
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.self_post_container{
+    display: flex;
+    height: 8vh;
+}
+
+.self_post{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+}
+
+.timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts_facts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.post_timeline{
+    width: 13vh;
+    height: 5vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: black;
+}
+
+.post_post_fact{
+    width: 13vh;
+    height: 5vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: white;
+    background-color: black;
+}
+
+.hak_profile_info{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hak_profile{
+    display: flex;
+}
+
+.hak_profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 1vh;
+    background-image: url('../images/hak_profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.theng_profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 1vh;
+    background-image: url('../images/theng_profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.hak_user_name{
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.hak_name{
+    font-weight: 600;
+}
+
+.hak_user{
+    font-size: 10px;
+    color: #979797;
+}
+
+.hak_info{
+    width: 27vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts_message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.post_unfriend{
+    width: 10vh;
+    height: 4vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: white;
+    background-color: indianred;
+}
+
+.post_message{
+    width: 10vh;
+    height: 4vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: white;
+    background-color: dodgerblue;
+}

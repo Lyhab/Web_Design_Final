@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 9.2vh;
+    background-color: #85C1E9;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_box{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+.profile{
+    display: flex;
+    margin-top: 1vh;
+    border: none;
+}
+
+.profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-top: 1.8vh;
+    margin-left: 1vh;
+    background-image: url('../images/self_profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.account_user_name{
+    margin-top: 2.1vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.self_name{
+    font-weight: 600;
+}
+
+.self_user{
+    font-size: 10px;
+    margin-right: 7vh;
+    color: gray;
+}
+
+.post_info{
+    font-size: 10px;
+    margin-top: 0.8vh;
+    color: #979797;
+}
+
+.online_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.2vh;
+    width: 9vh;
+    border: none;
+}
+
+.message_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.2vh;
+    width: 9vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.body{
+    height: 76vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.notif_title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 9vh;
+    background-color: #85C1E9;
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+
+.homepage{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.friends, .watch, .menu{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.notifications{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+    border: none;
+    background-color: #85C1E9;
+    color: #848884;
+}

@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 9.2vh;
+    background-color: #85C1E9;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.back_icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vh;
+    margin-left: 2vh;
+    border: none;
+    background-color: #85C1E9;
+}
+
+.posting{
+    font-size: 35px;
+    margin-bottom: 2vh;
+}
+
+.post_button{
+    font-size: 20px;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+}
+
+.body{
+    height: 86vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.self_post_container{
+    display: flex;
+    height: 8vh;
+}
+
+.self_post{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+}
+
+.timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts_facts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.post_timeline{
+    width: 13vh;
+    height: 5vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: black;
+}
+
+.post_post_fact{
+    width: 13vh;
+    height: 5vh;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: white;
+    background-color: black;
+}
+
+.post_timeline_1{
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: black;
+}
+
+.post_post_fact_1{
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    border: none;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 0.2);
+    color: white;
+    background-color: black;
+}
+
+.theng_post_container{
+    height: 55.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+.theng_profile_info{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theng_profile{
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.theng_profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 1vh;
+    background-image: url('../images/theng_profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.theng_user_name{
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.theng_name{
+    font-weight: 600;
+    margin-right: 2vh;
+}
+
+.theng_user{
+    font-size: 10px;
+    color: #979797;
+    margin-right: 5vh;
+}
+
+.theng_history{
+    font-size: 10px;
+    color: #979797;
+}
+
+.theng_tag{
+    font-size: 10px;
+    color: #979797;
+    margin-top: 0.85vh;
+    margin-left: -1.5vh;
+}
+
+.theng_info{
+    width: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 1vh;
+    border: none;
+    background-color: white;
+}
+
+.theng_post_caption{
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.theng_caption{
+    margin-left: 1.5vh;
+}
+
+.theng_mention{
+    color: #979797;
+}
+
+.theng_picture{
+    background-image: url('../images/theng_post.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.dim_black{
+    width: 46.2vh;
+    height: 36vh;
+    position: absolute;
+    background-color: black;
+    opacity: 50%;
+}
+
+.video_time{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1vh;
+    color: white;
+    font-size: 18px;
+}
+
+.play_icon{
+    position: absolute;
+    color: white;
+    bottom: 17vh;
+    left: 21.5vh;
+}
+
+.theng_like_share_comment{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.theng_like_share_comment_icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theng_like{
+    width: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theng_like_icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.heart_icon_border{
+    z-index: 2;
+}
+
+.heart_icon_solid{
+    z-index: 1;
+    color: darkred;
+    margin-top: -2.2vh;
+}
+
+.theng_like_amount{
+    margin-right: -4.8vh;
+    margin-top: -1vh;
+    font-size: 10px;
+}
+
+.theng_share{
+    width: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+.theng_share_icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.share_icon_border{
+    z-index: 2;
+}
+
+.share_icon_solid{
+    z-index: 1;
+    color: #F1C40F;
+    margin-top: -2.2vh;
+}
+
+.theng_share_amount{
+    margin-right: -5vh;
+    margin-top: -1vh;
+    font-size: 10px;
+}
+
+.theng_comment{
+    width: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theng_comment_icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_icon_border{
+    z-index: 2;
+}
+
+.comment_icon_solid{
+    z-index: 1;
+    color: #4169E1;
+    margin-top: -2.2vh;
+}
+
+.theng_comment_amount{
+    margin-right: -5vh;
+    margin-top: -1vh;
+    font-size: 10px;
+}
+
+.theng_comment_box{
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theng_comment_button{
+    width: 85%;
+    height: 60%;
+    display: flex;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 2px 2px gray inset;
+}
+
+.theng_comment_letter{
+    margin-left: 1vh;
+    color: #979797;
+}
+
+.theng_comment_send_icon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vh;
+}
+
+.comment_send_icon_border{
+    z-index: 2;
+}
+
+.comment_send_icon_solid{
+    z-index: 1;
+    color: #27AE60;
+    margin-top: -1.8vh;
+}
+
+.container_bot{
+    height: 13.5vh;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    gap: 4.5vh;
+}
+
+.bot_profile_info{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
+.bot_profile{
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.bot_profile_picture{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 1vh;
+    background-image: url('../images/theng_profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.bot_user_name{
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    font-family: 'Inter';
+}
+
+.bot_name{
+    font-weight: 600;
+    margin-right: 2vh;
+}
+
+.bot_user{
+    font-size: 10px;
+    color: #979797;
+    margin-right: 5vh;
+}
+
+.bot_history{
+    font-size: 10px;
+    color: #979797;
+}
+
+.bot_tag{
+    font-size: 10px;
+    color: #979797;
+    margin-top: 0.85vh;
+    margin-left: -1.5vh;
+}
+
+.bot_info{
+    width: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 1vh;
+    border: none;
+    background-color: white;
+}
+
+.bot_post_caption{
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.bot_caption{
+    margin-left: 1.5vh;
+}
+
+.bot_mention{
+    color: #979797;
+}
